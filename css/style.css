@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{padding: 0;
+	margin: 0;
+	font-family: 'Slabo 27px', sans-serif;
+}
+img{
+	display: block;
+	max-width: 100%;
+	width: 85%;
+}
+
+.main{
+	width: 1000px;
+	margin:0 auto;
+	background-color: #83ef98; 
+	overflow: hidden;
+}
+
+.name{
+	width: 60%;
+	background-color: ;
+	overflow: hidden;
+	float: left;
+
+}
+.name img{
+	width: 50%;
+	padding: 10px;
+}
+.links{
+	width: 40%;
+	float: left;
+	background-color: ;
+
+}
+.links > ul{
+	padding-right: 25px;
+}
+.links > ul > li {
+	list-style: none;
+	float: right;
+	
+	
+}
+.links > ul > li > a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	display: block;
+	background-color: green;
+	margin-left: 10px;
+	color: white;
+	font-size: 12px;
+
+}
+
+/* manu */
+.menu{
+	width: 100%;
+	background-color: lightgreen;
+	overflow: hidden;
+	border-bottom: 10px solid #25a903;
+	
+}
+.menu > ul{
+	padding: 0;
+	margin: 0;
+
+
+}
+.menu > ul > li {
+	list-style: none;
+	float: left;
+	
+}
+.menu > ul > li > a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 15px 20px;
+	display: block;
+	transition: all .7s linear;
+	-webkit-transition: all .7s linear;
+	-moz-transition: all .7s linear;
+}
+.menu a:hover{
+	background-color: darkgreen;
+	color: white;
+}
+	
+/* manu */
+/* contant */
+.contant{
+	width: 100%;
+    background-color: #013c0d;
+    overflow: hidden;
+}
+.sidebar{
+	width: 30%;
+	background-color:;
+	float: left;
+	
+}
+.sidebar img{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.contant_bar{
+	width: 70%;
+	background-color: ;
+	float: left;
+	
+
+}
+
+
+.main_contant{
+	width: 100%;
+	float: left;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+.main_contant h2{color: lightyellow; text-align: justify;}
+.main_contant p{color: lightyellow; text-align: justify;}
+.extra_contant {
+    width: 100%;
+    float: left;
+    background-color: rgb(16, 84, 30);
+    padding: 17px 5px;
+    box-sizing: border-box;
+}
+.extra_contant ul li {
+    list-style: none;
+    float: left;
+    padding: 1px;
+    display: block;
+    background-color: green;
+    margin-left: 6px;
+}
+.extra_contant > ul > li > img {
+    padding: 3px;
+    display: block;
+    margin-left: 1px;
+    width: 141px;
+}
+
+
+
+.footer p{
+	font-size: 9px;
+	text-align: center;
+	padding: 15px 0px;
+	
+
+}
+.footer {
+	
+	border-top: 10px solid #25a903;
+}
+.footer p a{
+	text-decoration: none;
+	color: #002bff
+}
